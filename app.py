@@ -11,7 +11,7 @@ st.markdown("<h1 style='text-align: center; color: grey;'>Red State Vs Blue Stat
 b =['California', 'Colorado', 'Connecticut', 'Delaware', 'Hawaii', 'Illinois', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Nevada', 'New Hampshire', 'New Jersey', 'New York', 'Oregon', 'Pennsylvania', 'Rhode Island', 'Vermont', 'Washington']
 r = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'Florida', 'Georgia', 'Idaho', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'New Mexico', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Virginia', 'West Virginia', 'Wisconsin', 'Wyoming']
 
-data= pd.read_excel('/home/ismail/Downloads/redblu.xlsx', header=[2])
+data= pd.read_excel('redblu.xlsx', header=[2])
 
 
 jscode = JsCode("""
