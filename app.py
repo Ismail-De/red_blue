@@ -19,12 +19,12 @@ jscode = JsCode("""
                 if (params.data.Index === 1) {
                     return {
                         'color': 'white',
-                        'backgroundColor': '#52b7e9'
+                        'backgroundColor': '#ff8a80'
                     }
                 } else {
                     return {
                         'color': 'white',
-                        'backgroundColor': '#ff8a80'
+                        'backgroundColor': '#52b7e9'
         }
     }
             };
